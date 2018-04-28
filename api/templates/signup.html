@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Create account</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data">
+        {% csrf_token %}
+        <div style=" text-align: right; margin-right: 600px">
+            Fullname : <input type="text" name="full_name" value="Ankush Pal"><br /><br />
+            username : <input type="text" name="username" value="ankush" required><br /><br />
+            Profile_picture : <input type="file" name="Profile_Picture"><br /><br />
+            DOB : <input type="text" name="birth_date" value="1999-09-05"><br /><br />
+            Gender: <input type="text" name="password" value="male"><br /><br />
+            Password : <input type="password" name="password" value="pass@1234" required><br /><br />
+            contact: <input type="number" name="contact" value="1236547995"><br /><br />
+            email : <input type="email" name="email" value="ankdkfdf@mail.com"><br /><br />
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>

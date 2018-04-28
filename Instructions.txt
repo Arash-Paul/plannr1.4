@@ -1,0 +1,15 @@
+python
+
+Notes:
+
+1. api.rar is a working model database 
+
+2. [First-Initialise]: 
+	https://boiling-peak-93885.herokuapp.com/
+	https://git.heroku.com/boiling-peak-93885.git
+   
+   [Second-Initialise]:
+	https://afternoon-dusk-37843.herokuapp.com/	
+	https://git.heroku.com/afternoon-dusk-37843.git [fetch/puch]
+	
+	[buildpack] https://github.com/heroku/django-heroku
